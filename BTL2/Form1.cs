@@ -18,26 +18,31 @@
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form2 fo2 = new Form2();
-            fo2.Show();
+
         }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
-         
+
         }
 
         private void guna2TextBox2_TextChanged(object sender, EventArgs e)
         {
-            
-           
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 fm3= new Form3(); 
-            fm3.Show(); 
+            Form3 fm3 = new Form3();
+            fm3.Show();
 
+        }
+
+        private void lb_QuenMK_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form2 fm2 = new Form2();
+            fm2.Show();
         }
     }
 }

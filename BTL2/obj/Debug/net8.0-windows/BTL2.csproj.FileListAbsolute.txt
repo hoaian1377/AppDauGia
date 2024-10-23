@@ -46,3 +46,4 @@ D:\LapTrinhMang\BTL\BTL2\BTL2\obj\Debug\net8.0-windows\BTL2.csproj.CoreCompileIn
 D:\LapTrinhMang\BTL\BTL2\BTL2\obj\Debug\net8.0-windows\BTL2.csproj.Up2Date
 D:\LapTrinhMang\BTL\BTL2\BTL2\obj\Debug\net8.0-windows\BTL2.genruntimeconfig.cache
 D:\LapTrinhMang\BTL\BTL2\BTL2\obj\Debug\net8.0-windows\ref\BTL2.dll
+D:\LapTrinhMang\BTL\BTL2\BTL2\obj\Debug\net8.0-windows\BTL2.sourcelink.json

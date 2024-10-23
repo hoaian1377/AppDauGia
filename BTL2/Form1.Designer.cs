@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
             label1 = new Label();
             button1 = new Button();
@@ -41,7 +41,7 @@
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             label3 = new Label();
             linkLabel2 = new LinkLabel();
-            linkLabel1 = new LinkLabel();
+            lb_QuenMK = new LinkLabel();
             button2 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -89,7 +89,7 @@
             panel2.Controls.Add(guna2TextBox1);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(linkLabel2);
-            panel2.Controls.Add(linkLabel1);
+            panel2.Controls.Add(lb_QuenMK);
             panel2.Controls.Add(button2);
             panel2.Location = new Point(52, 176);
             panel2.Name = "panel2";
@@ -99,7 +99,7 @@
             // guna2TextBox2
             // 
             guna2TextBox2.BorderColor = Color.Transparent;
-            guna2TextBox2.CustomizableEdges = customizableEdges1;
+            guna2TextBox2.CustomizableEdges = customizableEdges5;
             guna2TextBox2.DefaultText = "";
             guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -116,14 +116,14 @@
             guna2TextBox2.PasswordChar = '\0';
             guna2TextBox2.PlaceholderText = "Nhập Mật Khẩu";
             guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2TextBox2.Size = new Size(223, 52);
             guna2TextBox2.TabIndex = 11;
             guna2TextBox2.TextChanged += guna2TextBox2_TextChanged;
             // 
             // guna2TextBox1
             // 
-            guna2TextBox1.CustomizableEdges = customizableEdges3;
+            guna2TextBox1.CustomizableEdges = customizableEdges7;
             guna2TextBox1.DefaultText = "";
             guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -140,7 +140,7 @@
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderText = "Nhập Tài Khoản";
             guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2TextBox1.Size = new Size(223, 53);
             guna2TextBox1.TabIndex = 10;
             guna2TextBox1.TextChanged += guna2TextBox1_TextChanged;
@@ -170,17 +170,18 @@
             linkLabel2.Text = "Tạo Tài Khoản";
             linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
-            // linkLabel1
+            // lb_QuenMK
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.LinkColor = Color.White;
-            linkLabel1.Location = new Point(91, 186);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(111, 20);
-            linkLabel1.TabIndex = 7;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Quên Mật Khẩu";
+            lb_QuenMK.AutoSize = true;
+            lb_QuenMK.BackColor = Color.Transparent;
+            lb_QuenMK.LinkColor = Color.White;
+            lb_QuenMK.Location = new Point(91, 186);
+            lb_QuenMK.Name = "lb_QuenMK";
+            lb_QuenMK.Size = new Size(111, 20);
+            lb_QuenMK.TabIndex = 7;
+            lb_QuenMK.TabStop = true;
+            lb_QuenMK.Text = "Quên Mật Khẩu";
+            lb_QuenMK.LinkClicked += lb_QuenMK_LinkClicked;
             // 
             // button2
             // 
@@ -225,7 +226,7 @@
         private Panel panel2;
         private Label label3;
         private LinkLabel linkLabel2;
-        private LinkLabel linkLabel1;
+        private LinkLabel lb_QuenMK;
         private Button button2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
